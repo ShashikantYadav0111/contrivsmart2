@@ -1,0 +1,18 @@
+.banner {
+    background: linear-gradient(-45deg, #f9f4f4, #e2f1f9, #fde7cb, #f6fac2,#d0fac7, #f3f8ac);
+    background-size:contain ;
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

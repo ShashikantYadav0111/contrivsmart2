@@ -1,0 +1,16 @@
+<div style="padding: 1rem;" class="shadow-xl z-99 flex flex-row gap-5 p-2 rounded-xl client-card max-w-md overflow-hidden transition-transform transform hover:scale-101">
+    <!-- Left: Image -->
+    <div class="rounded-xl w-1/2">
+        <img class="object-cover h-full w-full rounded-xl" src="{{clientDetails.logo}}" alt="Client Photo">
+    </div>
+
+    <!-- Right: Content -->
+    <div class="w-1/2 p-4 flex flex-col justify-between">
+        <div class="flex flex-col gap-3">
+            <h1 class="text-xl font-semibold text-gray-800">{{clientDetails.name}}</h1>
+            <h2 class="text-sm text-yellow-600 mt-1">⭐ Rating: {{clientDetails.rating}}</h2>
+            <p style="padding-left: 0.5rem;" class="text-sm border-l-3 text-gray-600 mt-2 italic">"{{clientDetails.testimonial}}"</p>
+        </div>
+        <a href="{{clientDetails.siteLink}}" target="_blank" class="mt-4 text-blue-600 text-sm font-medium hover:underline">Visit Website →</a>
+    </div>
+</div>

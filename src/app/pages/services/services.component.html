@@ -1,0 +1,47 @@
+<div class="banner h-40 w-full flex justify-center items-center">
+    <h1 class="text-center font-bold text-2xl sm:text-5xl ">We Provide Wide range solution for your website needs</h1>
+</div>
+<div class="card-container">
+    <div class="card" *ngFor="let service of services">
+      <div class="card-inner">
+        <div class="card-front">
+          <h3 class="font-bold">{{ service.title }}</h3>
+        </div>
+        <div class="card-back">
+          <p class="font-bold">{{ service.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="consultation">
+    <div class="left"></div>
+    <div class="right"></div>
+  </div> -->
+  <!-- <h1 style="margin: 2.5rem auto;" class="text-center font-bold text-2xl sm:text-5xl ">Get a free consultation</h1>
+  <div style="padding: 2rem;margin:2rem auto" class="banner rounded-xl consultation sm:h-150 sm:w-4/5  flex flex-col sm:flex-row gap-5">
+    <div class="left sm:w-1/2 h-full">
+        <img class="h-full w-full rounded-md" src="./abstract2.jpg" alt="Consultation Image">
+    </div>
+    <div class="right bg-white sm:w-1/2 rounded-md">
+        <form style="padding: 1rem;" class="consultation-form flex flex-col gap-6 rounded-md">
+            <div class="form-group flex flex-col">
+                <label class="font-bold text-red-900" for="name">Full Name</label>
+                <input style="padding: 0.3rem;" class="border rounded-md text-red-900" type="text" id="name" name="name" required placeholder="John Doe">
+            </div>
+            <div class="form-group flex flex-col">
+                <label class="font-bold text-red-900" for="email">Email</label>
+                <input style="padding: 0.3rem;" class="border rounded-md text-red-900"  type="email" id="email" name="email" required placeholder="john@example.com">
+            </div>
+            <div class="form-group flex flex-col">
+                <label class="font-bold text-red-900" for="phone">Phone Number</label>
+                <input style="padding: 0.3rem;" class="border rounded-md text-red-900" type="tel" id="phone" name="phone" required placeholder="+1 234 567 890">
+            </div>
+            <div class="form-group flex flex-col">
+                <label class="font-bold text-red-900" for="description">Description</label>
+                <textarea style="padding: 0.3rem;" class="border rounded-md text-red-900" id="description" name="description" rows="4" required placeholder="Enter your query..."></textarea>
+            </div>
+            <button class="border-2 border-red-900 text-red-900 h-10 rounded-md hover:bg-red-900 hover:text-white" type="submit">Submit Request</button>
+        </form>
+    </div>
+</div> -->
+<app-footer></app-footer>
