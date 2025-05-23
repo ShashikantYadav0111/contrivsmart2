@@ -1,7 +1,9 @@
 .services{
     background-color: white;
 }
-.expand{}
+.expand{
+  transition: 0.3s ease-in-out;
+}
 .expand:hover{
   transform: scale(1.02);
 }

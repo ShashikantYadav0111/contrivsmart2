@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 import * as AOS from 'aos';
 
 @Component({
   selector: 'app-serv',
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './serv.component.html',
   styleUrl: './serv.component.scss',
 })
