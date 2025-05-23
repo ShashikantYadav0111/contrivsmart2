@@ -18,12 +18,12 @@
         <div class="line"> </div>
     </div>
     <div class="nav-links fixed inset-0 bg-white z-50 flex items-center justify-center" *ngIf="isClicked">
-        <ul class="flex flex-col gap-6 text-2xl">
-          <li (click)="toggleBurger()">Home</li>
-          <li (click)="toggleBurger()">Services</li>
-          <li (click)="toggleBurger()">About Us</li>
+        <ul class="flex flex-col gap-6 text-2xl text-center">
+          <li (click)="toggleBurger()" [routerLink]="['']">Home</li>
+          <li (click)="toggleBurger()" [routerLink]="['services']">Services</li>
+          <li (click)="toggleBurger()" [routerLink]="['about']">About Us</li>
           <!-- <li (click)="toggleBurger()">Projects</li> -->
-          <li (click)="toggleBurger()">Contacts</li>
+          <li (click)="toggleBurger()" [routerLink]="['contact']">Contact</li>
         </ul>
       </div>
 </div>
