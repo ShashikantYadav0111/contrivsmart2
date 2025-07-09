@@ -25,12 +25,12 @@ export class ClientsComponent {
     rating: '⭐⭐⭐⭐⭐',
     siteLink: 'https://unlisted-equities.netlify.app/'
   },
-  {
-    name: 'Grp Careers',
-    logo: './grp.png',
-    testimonial: 'Excellent communication and attention to detail. The final site exceeded our expectations in both design and usability.',
-    rating: '⭐⭐⭐⭐',
-    siteLink: 'https://grp-careers.netlify.app/'
-  }
+  // {
+  //   name: 'Grp Careers',
+  //   logo: './grp.png',
+  //   testimonial: 'Excellent communication and attention to detail. The final site exceeded our expectations in both design and usability.',
+  //   rating: '⭐⭐⭐⭐',
+  //   siteLink: 'https://grp-careers.netlify.app/'
+  // }
 ];
 }
